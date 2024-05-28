@@ -34,7 +34,7 @@ header h1 {
     display: inline-block;
     margin: 0;
     vertical-align: middle;
-    font-size: 24px;
+    font-size: 35px;
     color: #000;
 }
 
@@ -57,7 +57,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #000;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 nav ul li a:hover {
@@ -103,17 +103,32 @@ main {
     }
 }
 
-section {
-    .hero {
+
+.hero {
         display: flex;
         align-items: center;
         justify-content: space-between;
-    }
+        margin: 50px;
+
+        h2 {
+            font-size: 25px;
+        }
 }
 
+.about-container {
+    text-decoration: none;
+    color: #000;
+    
+    .text-container {
+        text-align: left;
+    }
+    
+    p {
+        font-size: 25px;
+    }
+}
 #home, #about-me, #gallery, #skills, #internship, #goals, #experience, #travel, #contact {
     text-align: center;
-    background-color: #E6E6E6;
     padding: 40px 0;
 }
 
@@ -124,7 +139,7 @@ section {
 
 #home p, #about-me p, #gallery p, #skills p, #internship p, #goals p, #experience p, #travel p, #contact p {
     font-size: 24px;
-    color: #000;
+    color: #ffffff;
 }
 
 #home .main-image {
@@ -148,18 +163,26 @@ section {
 }
 
 #about-me .about-item p {
-    font-size: 18px;
+    font-size: 25px;
+    font-weight: bold;
     color: #000;
 }
 
 #about-me .about-item a {
     text-decoration: none;
     color: #0000FF;
-    font-size: 18px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
+.card-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
 #gallery .gallery-item, #skills .skills-item, #internship .internship-section, #goals .goal-item, #experience .experience-item, #travel .travel-item, #contact form {
-    background-color: #FFF;
+    background-color: #222A47;
     margin: 20px auto;
     padding: 20px;
     border: 1px solid #B0B0B0;
@@ -169,7 +192,7 @@ section {
 
 #gallery .gallery-item h3, #skills .skills-item h3, #internship .internship-section h3, #goals .goal-item h3, #experience .experience-item h3, #travel .travel-item h3, #contact h2 {
     font-size: 24px;
-    color: #000;
+    color: #ffffff;
 }
 
 #gallery .gallery-item img, #skills .skills-item img, #internship .internship-section img, #experience .experience-item img, #travel .travel-item img {
@@ -184,13 +207,13 @@ section {
 
 #gallery .gallery-item ul li, #skills .skills-item ul li, #internship .internship-section ul li, #experience .experience-item ul li {
     font-size: 16px;
-    color: #000;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
 #goals .goal-item p {
     font-size: 16px;
-    color: #000;
+    color: #ffffff;
     margin: 10px 0;
 }
 
@@ -214,7 +237,7 @@ section {
 #contact form .form-group label {
     display: block;
     font-size: 18px;
-    color: #000;
+    color: #ffffff;
     margin-bottom: 5px;
 }
 
@@ -243,7 +266,7 @@ section {
 }
 
 footer {
-    background-color: #FFF;
+    background-color: #A2A9C6;
     text-align: center;
     padding: 20px;
     border-top: 2px solid #B0B0B0;

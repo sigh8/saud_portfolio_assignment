@@ -181,6 +181,12 @@ main {
     align-items: center;
 
 }
+
+.image-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 #gallery .gallery-item, #skills .skills-item, #internship .internship-section, #goals .goal-item, #experience .experience-item, #travel .travel-item, #contact form {
     background-color: #222A47;
     margin: 20px auto;

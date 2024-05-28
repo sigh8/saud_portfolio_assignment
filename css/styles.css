@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #E6E6E6;
+    background-color: #C7BEA3;
     color: #000;
 }
 
@@ -14,15 +14,20 @@ body {
 
 
 header {
-    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #A2A9C6;
     padding: 20px;
     text-align: center;
     border-bottom: 2px solid #B0B0B0;
-}
+    
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
 
-header .logo {
-    display: inline-block;
-    vertical-align: middle;
+    }
 }
 
 header h1 {
@@ -90,6 +95,20 @@ nav ul li.dropdown:hover .dropdown-content {
 
 main {
     padding: 20px;
+
+    .home {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+section {
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
 
 #home, #about-me, #gallery, #skills, #internship, #goals, #experience, #travel, #contact {
